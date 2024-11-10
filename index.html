@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
 
-<body>
-    <nav>
-        <div id="Logo">logo</div>
-        <ul>
-            <li>about</li>
-            <li>Home</li>
-            <li>Contact Us</li>
-            <li>help</li>
-            <li>login</li>
-            <li>Know more</li>
+        <nav>
+            <div id="Logo">logo</div>
+            <ul class="menu margin">
+                <li>About
+                    <ul class="submenu">
+                        <li>Our Story</li>
+                        <li>Team</li>
+                        <li>Careers</li>
+                    </ul>
+                </li>
+                <li>Home</li>
+            <li>Contact Us
+                <ul class="submenu">
+                    <li>Email</li>
+                    <li>Phone</li>
+                    <li>Address</li>
+                </ul>
+            </li>
+            <li>Help
+                <ul class="submenu">
+                    <li>FAQs</li>
+                    <li>Support</li>
+                </ul>
+            </li>
+            <li>Login</li>
+            <li>Know More</li>
         </ul>
-
+        
+        <input type="text" class="margin">
+        <div id="search_button" class="margin">Search</div>
     </nav>
+    <div class="video">
+        <video  src="clg-video.mp4" preload="auto" autoplay loop  playsinline></video>
+</div>
+    
+
 </body>
 
 </html>
